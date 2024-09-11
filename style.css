@@ -1,34 +1,43 @@
-.imagem-centralizada {
-    display: block;
-    margin: 0 auto;
+/* Centralizar texto */
+.center-text {
+    text-align: center;
   }
-  
-  body {
-    background-color: bisque;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    display: block;
-    margin: 0 auto;
+
+  /* Centralizar bloco horizontalmente */
+  .center-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
-  
-  .imagem-center {
-    display: block;
-    margin: 0 auto;
+
+  /* Centralizar com Flexbox */
+  .center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Apenas para visualização */
   }
-  
-  .banner-centro {
-    display: block;
-    margin: 0 auto;
+
+  /* Centralizar com Grid */
+  .center-grid {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #e0e0e0; /* Apenas para visualização */
   }
-  
-  img:hover {
-    cursor: pointer;
-    /* muda o cursor para uma mãozinha */
-    border: 1px solid #ccc;
-    /* adiciona um bordo ao redor da imagem */
+
+  /* Centralizar com position: absolute */
+  .center-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
-  .pequeno{
-    width: 25px;
-    height: auto;
+
+  .box {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
   }
