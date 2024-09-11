@@ -18,9 +18,10 @@
 
 /* Estilização adicional, se necessário */
 body {
-    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão */
     line-height: 1.6; /* Melhora a legibilidade do texto */
     text-align: center; /* Centraliza o texto */
+    font-size: 20px;
 }
 
 main {
