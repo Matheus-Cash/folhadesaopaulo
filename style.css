@@ -1,65 +1,82 @@
 /* Centralizar texto */
 .center-text {
     text-align: center;
-  }
-  
-  /* Centralizar bloco horizontalmente */
-  .center-block {
+}
+
+/* Centralizar bloco horizontalmente */
+.center-block {
     margin-left: auto;
     margin-right: auto;
-    width: 50%; /* Ajuste a largura conforme necessário */
-  }
-  
-  /* Centralizar com Flexbox */
-  .center-flex {
+    width: 50%;
+    /* Ajuste a largura conforme necessário */
+}
+
+/* Centralizar com Flexbox */
+.center-flex {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Ajuste a altura conforme necessário */
-    background-color: #f0f0f0; /* Apenas para visualização */
-  }
-  
-  /* Centralizar com Grid */
-  .center-grid {
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Ajuste a altura conforme necessário */
+    background-color: #f0f0f0;
+    /* Apenas para visualização */
+}
+
+/* Centralizar com Grid */
+.center-grid {
     display: grid;
-    place-items: center; /* Centraliza tanto horizontalmente quanto verticalmente */
-    height: 100vh; /* Ajuste a altura conforme necessário */
-    background-color: #e0e0e0; /* Apenas para visualização */
-  }
-  
-  /* Centralizar com position: absolute */
-  .center-absolute {
+    place-items: center;
+    /* Centraliza tanto horizontalmente quanto verticalmente */
+    height: 100vh;
+    /* Ajuste a altura conforme necessário */
+    background-color: #e0e0e0;
+    /* Apenas para visualização */
+}
+
+/* Centralizar com position: absolute */
+.center-absolute {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta o elemento para centralizar */
-  }
-  
-  /* Estilo comum para blocos */
-  .box {
+    transform: translate(-50%, -50%);
+    /* Ajusta o elemento para centralizar */
+}
+
+/* Estilo comum para blocos */
+.box {
     padding: 20px;
-    background-color: #007bff; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    border-radius: 8px; /* Bordas arredondadas */
-  }
-  
-h1,h2,h3,h5{
-text-align: center;
-}
-p{
-text-align: center;
+    background-color: #007bff;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    border-radius: 8px;
+    /* Bordas arredondadas */
 }
 
-.imagem-centralizada{
-display: block;
-margin: 0 auto;
+h1,
+h2,
+h3,
+h5 {
+    text-align: center;
 }
 
-.banner-centro{
-display: block;
-margin: 0 auto;
+p {
+    text-align: center;
 }
-.image-center{
-display: block;
-margin: 0 auto;
+
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner-centro {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-center {
+    display: block;
+    margin: 0 auto;
 }
