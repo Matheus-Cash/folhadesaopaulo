@@ -43,3 +43,6 @@
     border-radius: 8px; /* Bordas arredondadas */
   }
   
+h1,h2,h3{
+text-align: center;
+}
