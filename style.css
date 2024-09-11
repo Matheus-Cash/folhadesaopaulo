@@ -13,7 +13,7 @@
 
 /* Adiciona algum espaçamento entre as imagens */
 .image-container img:first-of-type {
-    margin-bottom: 10px; /* Ajuste conforme necessário */
+    margin-bottom: 15px; /* Ajuste conforme necessário */
 }
 
 /* Estilização adicional, se necessário */
