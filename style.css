@@ -1,31 +1,41 @@
 /* Define a centralização e o layout das imagens */
 .image-container {
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-    margin: 0 auto; /* Garante que o container esteja centralizado na página */
+    text-align: center;
+    /* Centraliza o conteúdo horizontalmente */
+    margin: 0 auto;
+    /* Garante que o container esteja centralizado na página */
 }
 
 .image-container img {
-    display: block; /* Faz com que cada imagem ocupe uma linha inteira */
-    margin: 0 auto; /* Garante que cada imagem esteja centralizada horizontalmente */
-    max-width: 100%; /* Garante que as imagens não excedam a largura da tela */
-    height: auto; /* Mantém a proporção das imagens */
+    display: block;
+    /* Faz com que cada imagem ocupe uma linha inteira */
+    margin: 0 auto;
+    /* Garante que cada imagem esteja centralizada horizontalmente */
+    max-width: 100%;
+    /* Garante que as imagens não excedam a largura da tela */
+    height: auto;
+    /* Mantém a proporção das imagens */
 }
 
 /* Adiciona algum espaçamento entre as imagens */
 .image-container img:first-of-type {
-    margin-bottom: 15px; /* Ajuste conforme necessário */
+    margin-bottom: 15px;
+    /* Ajuste conforme necessário */
 }
 
 /* Estilização adicional, se necessário */
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão */
-    line-height: 1.6; /* Melhora a legibilidade do texto */
-    text-align: center; /* Centraliza o texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define uma fonte padrão */
+    line-height: 1.6;
+    /* Melhora a legibilidade do texto */
+    text-align: center;
+    /* Centraliza o texto */
     font-size: 25px;
 }
 
 main {
-    margin: 20px; /* Adiciona um pouco de espaço ao redor do conteúdo principal */
+    margin: 20px;
+    /* Adiciona um pouco de espaço ao redor do conteúdo principal */
+
 }
-
-
